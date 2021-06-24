@@ -18,6 +18,7 @@ public class Pokedex {
     public Pokedex() {
 
     }
+
     public Pokedex(String name, String type, String description) {
         this.name = name;
         this.type = type;
