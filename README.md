@@ -1,5 +1,5 @@
 # Pokedex
-Simple application that provides endpoints to manage pokemons. It is storing data in H2 database. To run program simply clicking run in your IDE or run command "mvn spring-boot:run" from terminal or from Command Prompt.
+Simple application that provides endpoints to manage pokemons. It is storing data in H2 database. To run program simply clicking run in your IDE or run command `mvn spring-boot:run` from terminal or from Command Prompt.
 
 # REST API
 
