@@ -5,30 +5,30 @@ Simple application that provides endpoints to manage pokemons. It is storing dat
 
 The REST API is described below.
 
-`GET /getAll
+`GET /getAll`
 
 Return list of all elemnets in pages of 5 elements.
 
-`GET /getbyID/{id}
+`GET /getbyID/{id}`
 
 Return element with that id.
 
-`GET /Delete/{id}
+`GET /Delete/{id}`
 
 Removes element with that id from database.
 
-`POST /Add/{name}/{type}/{description}
+`POST /Add/{name}/{type}/{description}`
 
 Adds element to database with auto generated id.
 
-`POST /Update/{id}/{name}/{type}/{description}
+`POST /Update/{id}/{name}/{type}/{description}`
 
 Update element with that id.
 
-`GET /getbyName/{name}
+`GET /getbyName/{name}`
 
 Search element by ID and return it
 
-`GET //getbyType/{type}/{page}
+`GET //getbyType/{type}/{page}`
 
 Search elements by Type and returns them.
